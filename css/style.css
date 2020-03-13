@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(246,247,219,1.00);
+	color: rgba(80,50,2,1.00);
+	font-size: 20px;
+	line-height: 1.5;
+	background-image: url("../img/headerIMA20160724291614 (1).jpg");
+}
+
+p,h1,h2,h3,h4,h5,h6{
+	margin-top: 2;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: rgba(16,2,237,1.00);
+	text-decoration: none;
+	
+  }
+
+a:visited {
+	color: dimgray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	width: 960px;
+	height: 150px;
+	padding-bottom: 15px;
+	margin: 0 auto;   
+}
+
+.logo {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.global-nav {
+	margin-top: 10px;
+    margin-left: 37%;
+}
+
+.global-nav li {
+	float: left;
+	margin: 0 10px;
+	font-size: 17px;
+	list-style: none;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 900;
+}
+
+.global-nav li a {
+	color: rgba(80,50,2,1.00);
+}
+
+.global-nav li a:hover {
+	border-bottom: 2px solid rgba(80,50,2,1.00);
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+#wrap {
+	background-color: white;
+	padding-top: 5px;
+	display: flex;            /* 全体を横並びに */
+  flex-wrap: wrap;          /* 下に回り込む設定 */
+  justify-content: center;/* flexboxの要素をセンターに寄せる */
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	color: rgba(80,50,2,1.00);
+	padding: 20px 0 ;
+}
+
+footer small {
+	font-size:11px
+}
+
+#index h1{
+	font-size: 80px;
+	line-height: 1;
+	color: rgba(80,50,1,1.00);
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	margin-bottom: 10px;
+}
+
+#index .content {
+	margin-top: 10px;
+}
+
+.btn a {
+	background-color: #7E540E;
+	color:ivory;
+    font-size: 25px;
+	font-family:'M PLUS Rounded 1c', sans-serif;
+	width: 200px;
+	text-align: center;
+	display: block;
+	line-height: 45px;
+	margin-top: 10px;
+	border-radius: 15px;
+	border: 3px solid #7E540E;
+	opacity: 0.6;
+}
+
+.btn a:hover {
+	background-color: ivory;
+	color:  #7E540E;
+	text-decoration: none;
+}
+section a img:hover {
+	opacity: 0.6;
+}
+
+#index footer {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 130px;
+}
+
+#index {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main{
+	width:70%;
+	margin: 0 auto;
+	padding-bottom: 0px;
+	text-align: left;
+	
+}
+
+.f-container{
+	display: flex;
+	justify-content: center;
+}
+
+.f-item{
+	margin: 0 2%;
+}
+
+.flexbox {
+    display: flex;
+	}
+
+.sidebar {
+	width: 25%;
+	height: 30%;
+	line-height: 2.5;
+	font-size: 19px;
+	margin-right: 1.5%;
+	background-color: #DADADA;
+	background-image: url("../img/haikei256gridWovenCheck8-16.png");
+}
+
+.sidebar a {
+	color: #373737;
+	font-weight: bold;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sidebar a:hover {
+	opacity: 0.5;
+}
+
+.sidebar h2 {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: 'M PLUS Rounded 1c';
+}
+
+ul {
+  list-style: none;
+}
+
+
+.content {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.lunch {
+	width: 70%;
+}
+
+.goen {
+	display: flex;
+	justify-content: space-between;
+}
+
+.oldnewcafe {
+	display: flex;
+}
+
+.lunch-txt {
+    padding: 10px;
+	background-color: bisque;
+	width: 45%;
+	background-image: url("../img/tyekkuSolid256gridWovenCheck16-64 (1).png")
+}
+.lunch-txt span {
+	font-weight: bold;
+}
+
+.lunch-txt li{
+	font-size: 17px;
+}
+
+.lunch-image{
+    width: 45%;
+	align-self:flex-start;
+}
+
+.restaurant {
+	display: flex;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
