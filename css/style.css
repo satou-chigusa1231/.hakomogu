@@ -51,7 +51,7 @@ header {
 
 .global-nav {
 	margin-top: 10px;
-    margin-left: 37%;
+    margin-left: 34%;
 }
 
 .global-nav li {
@@ -177,12 +177,12 @@ section a img:hover {
 	line-height: 2.5;
 	font-size: 19px;
 	margin-right: 1.5%;
-	background-color: #DADADA;
+	background-color: #FFE3B6;
 	background-image: url("../img/haikei256gridWovenCheck8-16.png");
 }
 
 .sidebar a {
-	color: #373737;
+	color: #744902;
 	font-weight: bold;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
